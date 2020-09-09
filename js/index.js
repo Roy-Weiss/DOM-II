@@ -47,8 +47,9 @@ window.addEventListener("scroll", () => {
     scrollimg.style.color = "red"
 })
 
-
-
+.window.addEventListener("load", function (event) {
+    alert("This page has loaded")
+})
 
 
 
